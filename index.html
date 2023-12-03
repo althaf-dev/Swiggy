@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./index.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/7d74ce6fe0.js" crossorigin="anonymous"></script>
+    <title>Order food online from India's best food delivery service. Order from restaurants near you</title>
+    <link rel="icon" sizes="192x192"
+        href="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_192,h_192/portal/c/logo_2022.png">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="container">
+
+            <div class="row">
+                <div class="navbar">
+                    <div class="logo">
+
+                        <div><svg width="200" height="150" viewBox="0 -45 210 150">
+                                <path
+                                    d="M19.9253444,58.766315 C19.8876048,58.7384908 19.8458927,58.7037105 19.8021942,58.6654521 C19.094081,57.7879944 14.7152991,52.3026415 10.2535896,45.2670801 C8.91532497,43.0252402 8.046322,41.2767839 8.21317057,40.8246398 C8.64965835,39.6490651 16.4279798,39.0056292 18.8234486,40.0713975 C19.5519214,40.3948545 19.5335482,40.8231492 19.5335482,41.0725738 C19.5335482,42.1487762 19.4804148,45.0365363 19.4804148,45.0365363 C19.4809114,45.6332671 19.9660634,46.1172104 20.5634408,46.1162167 C21.1618115,46.1162167 21.6449771,45.630286 21.6429908,45.0320645 L21.6305765,37.8365137 L21.6285902,37.8365137 C21.6285902,37.2119586 20.9467953,37.055944 20.8186794,37.0315978 C19.5683083,37.0256354 17.0293299,37.0171888 14.3031434,37.0171888 C8.28765654,37.0171888 6.94343308,37.264129 5.92148558,36.5958501 C3.707266,35.1479951 0.0867513255,25.3896318 0.0023338937,19.8993102 C-0.117836803,12.1537335 4.47149205,5.44808831 10.9338947,2.12557426 C13.6337628,0.766160708 16.6832184,0 19.9039917,0 C30.132405,0 38.555775,7.72023676 39.6765405,17.6529986 C39.6775337,17.6614452 39.6775337,17.6708856 39.67952,17.6793322 C39.8851013,20.0806647 26.6504342,20.5909417 24.0325007,19.8923542 C23.6312696,19.785032 23.528479,19.3741274 23.528479,19.1972447 C23.5254995,17.371278 23.5130852,12.2327345 23.5130852,12.2327345 C23.5110989,11.6355068 23.025947,11.1510667 22.4285695,11.1525572 L22.4275764,11.1525572 C21.831192,11.153551 21.3470332,11.6389848 21.3470332,12.2372063 L21.3683859,21.7029181 C21.3867591,22.2991521 21.8873048,22.4601353 22.024359,22.4869659 C23.5130852,22.4874627 26.9945594,22.4839847 30.2371819,22.4839847 C34.6199364,22.4839847 36.460733,22.9917773 37.6857789,23.9243867 C38.5001588,24.5454638 38.8154827,25.7344538 38.5398847,27.2796936 C36.0823442,41.0258688 20.5103075,58.0562997 19.9253444,58.766315 Z M62.158293,26.6840558 C66.0871796,28.3679201 68.5213811,30.23612 68.5213811,34.3367194 C68.5213811,38.5257602 65.3482788,41.2316689 60.4386603,41.2316689 C56.4601164,41.2316689 53.2666546,39.4295516 51.6761309,36.2864046 L51.418906,35.7796057 L56.0966249,33.0692253 L56.4030105,33.5700618 C57.4562421,35.2916875 58.633617,36.0255522 60.3418285,36.0255522 C61.8141679,36.0255522 62.8033415,35.3731729 62.8033415,34.4013114 C62.8033415,33.3246122 62.0872831,32.9211605 59.8740566,31.9522802 L58.7493185,31.4698275 C55.7475339,30.1904087 52.9667244,28.4126376 52.9667244,24.1068343 C52.9667244,20.2372755 55.9327557,17.5348449 60.1799457,17.5348449 C63.3977396,17.5348449 65.6030208,18.7804771 67.1210449,21.4535929 L67.4026018,21.9499577 L62.8703789,24.8625609 L62.5580344,24.3035915 C61.8002638,22.9481529 61.0866882,22.6763695 60.1799457,22.6763695 C59.2319876,22.6763695 58.6212026,23.199068 58.6212026,24.0099463 C58.6212026,24.9415619 59.0710979,25.3504791 61.0320652,26.2001125 L62.158293,26.6840558 Z M95.2686968,27.476898 L98.5709081,18.2690574 L104.238794,18.2690574 L95.8387627,41.611619 L94.5799498,41.611619 L89.484613,30.6796684 C89.2477476,30.1788318 89.0034336,29.556761 88.7928866,28.9868606 C88.5773739,29.5577547 88.327101,30.1813161 88.089739,30.6821527 L82.7952763,41.611619 L81.5449052,41.611619 L73.0103029,18.2690574 L79.065019,18.2690574 L82.4034802,27.476898 C82.61651,28.0641885 82.8350022,28.7801662 83.0261829,29.4444702 C83.2531168,28.7588011 83.5257354,28.0184772 83.8107684,27.4217464 L88.1955091,18.0767719 L89.4086373,18.0767719 L93.8614085,27.4227401 C94.1454483,28.0189741 94.4190601,28.7597949 94.6450009,29.445464 C94.8371747,28.7801662 95.0571566,28.0641885 95.2686968,27.476898 Z M110.84853,40.9414023 L110.84853,17.7921198 L116.569052,17.7921198 L116.569052,40.9414023 L110.84853,40.9414023 Z M135.325265,33.163629 L135.325265,27.9903052 L145.94746,27.9903052 L145.94746,38.3652739 L145.727975,38.5461315 C144.512861,39.5438298 141.291094,41.2316689 136.926713,41.2316689 C129.564023,41.2316689 124.423995,36.3529841 124.423995,29.3676057 C124.423995,22.5114114 129.383767,17.5348449 136.217607,17.5348449 C139.975672,17.5348449 142.730163,18.594154 144.637004,20.7738862 L145.009434,21.1996966 L141.110342,25.059815 L140.686765,24.6235704 C139.59778,23.500663 138.469566,22.8050567 136.217607,22.8050567 C132.717263,22.8050567 130.272137,25.5035125 130.272137,29.3676057 C130.272137,33.3926822 132.883118,35.99425 136.926713,35.99425 C138.267957,35.99425 139.664321,35.7632093 140.614762,35.394041 L140.614762,33.163629 L135.325265,33.163629 Z M164.314658,33.163629 L164.314658,27.9903052 L174.936853,27.9903052 L174.936853,38.3652739 L174.717368,38.5461315 C173.501261,39.5438298 170.280487,41.2316689 165.917099,41.2316689 C158.554409,41.2316689 153.413388,36.3529841 153.413388,29.3676057 C153.413388,22.5114114 158.374153,17.5348449 165.206006,17.5348449 C168.966058,17.5348449 171.720549,18.594154 173.626397,20.7738862 L173.99982,21.1996966 L170.101721,25.059815 L169.677151,24.6235704 C168.587669,23.500663 167.458959,22.8050567 165.206006,22.8050567 C161.706656,22.8050567 159.26153,25.5035125 159.26153,29.3676057 C159.26153,33.3926822 161.873504,35.99425 165.917099,35.99425 C167.258343,35.99425 168.653714,35.7632093 169.604155,35.394041 L169.604155,33.163629 L164.314658,33.163629 Z M195.897503,17.7922192 L201.87674,17.7922192 L193.669876,33.1964218 L193.669876,40.9415017 L187.918566,40.9415017 L187.918566,33.5253443 L179.1759,17.7922192 L185.555871,17.7922192 L189.596487,25.1730995 C190.030988,25.9760279 190.484856,27.0373245 190.827988,27.8988826 C191.155726,27.0442805 191.589235,25.9924244 192.020757,25.1800555 L195.897503,17.7922192 Z">
+                                </path>
+                            </svg></div>
+
+                    </div>
+                    <div class="navbar-right">
+
+                        <a href="#">Login</a>
+                        <button>Sign up</button>
+
+                    </div>
+
+                </div>
+                <div class="heading"> <h1>Unexpected guests?</h1></div>
+                <div class="tagline">
+
+                    <p>Order food from favourite restaurants near you.</p>
+
+                </div>
+                <div class="searchbox">
+
+                    <input placeholder=" Enter your delivery location" />
+                    <button id="locate"><i class="fa-solid fa-location-crosshairs"></i>Locate Me</button>
+                    <button>FIND FOOD</button>
+
+                </div>
+
+                <div>
+
+                    <p style="margin-left: 10rem; color: #686b78;">POPULAR CITIES IN INDIA</p>
+                </div>
+
+                <div>
+                    <ul class="locations">
+                        <li><strong>Ahmedabad</strong></li>
+                        <li>Bangalore</li>
+                        <li><strong>Chennai</strong></li>
+                        <li>Delhi</li>
+                        <li><strong>Gurgaon</strong></li>
+                        <li>Hyderabad</li>
+                        <li><strong>Kolkata</strong></li>
+                        <li>Mumbai</li>
+                        <li><Strong>Pune</Strong></li>
+                        <li>& more.</li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+            <div class="banner">
+               
+            </div>
+
+        </div>
+
+
+
+    </header>
+
+
+
+    <main>
+
+        <section class="features">
+
+            <div class="box">
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_210,h_398/4x_-_No_min_order_x0bxuf"
+                    alt="" width="105" height="199">
+                <h1>No Minimum order</h1>
+                <span>Order in for yourself or for the group,</span>
+                <span>with no restrictions on order value</span>
+            </div>
+
+            <div class="box">
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_224,h_412/4x_Live_order_zzotwy"
+                    alt="" width="105" height="199">
+                <h1>Live Order Tracking</h1>
+                <span>Know where your order is at all times,</span>
+                <span>from the restaurant to your doorstep</span>
+            </div>
+
+            <div class="box">
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_248,h_376/4x_-_Super_fast_delivery_awv7sn"
+                    alt="" width="105" height="199">
+                <h1>Lightning-Fast Delivery</h1>
+                <span>Experience Swiggy's superfast delivery</span>
+                <span>for food delivered fresh & on time</span>
+            </div>
+
+        </section>
+
+
+        <section class="download">
+
+
+            <div>
+
+                <div class="download_header">
+                    <h4>Restaurants in your pocket</h4>
+                    <p>Order from your favorite restaurants & track on the go, with the all-new Swiggy app.</p>
+                </div>
+
+
+                <div class="downloadButton">
+
+                    <div>
+                        <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_108/play_ip0jfp"
+                            alt="icon" width="180.4px" height="50.9px">
+
+                    </div>
+
+                    <div>
+                        <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_108/iOS_ajgrty"
+                            alt="icon" width="180.4px" height="50.9px">
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <div class="mob_image">
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_768,h_978/pixel_wbdy4n"
+                    alt="image" width="384" height="489">
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_768,h_978/iPhone_wgconp_j0d1fn"
+                    alt="image" width="384" height="489">
+            </div>
+
+
+
+        </section>
+
+
+        <section class="bg-black">
+
+            <div class="links">
+
+                <div>
+                    <h5>COMPANY</h5>
+                    <ul>
+                        <li><a href="">About us</a></li>
+                        <li><a href="">Team</a></li>
+                        <li><a href="">Careers</a></li>
+                        <li><a href="">Swiggy Blog</a></li>
+                        <li><a href="">Bug Bounty</a></li>
+                        <li><a href="">Swiggy One</a></li>
+                        <li><a href="">Swiggy Corporate</a></li>
+                        <li><a href="">Swiggy Instamart</a></li>
+                        <li><a href="">Swiggy Genie</a></li>
+                        <li><a href="">Swiggy HDFC Bank Credit Card</a></li>
+                        <li><a href="">ESG</a></li>
+                    </ul>
+                </div>
+
+
+                <div>
+                    <h5>CONTACT</h5>
+                    <ul>
+                        <li><a href="">Help & Support</a></li>
+                        <li><a href="">Partner with us</a></li>
+                        <li><a href="">Ride with us</a></li>
+
+                    </ul>
+                </div>
+
+
+                <div>
+                    <h5>LEGAL</h5>
+                    <ul>
+                        <li><a href="">Terms & Conditions</a></li>
+                        <li><a href="">Refund & Cancellation</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Cookie Policy</a></li>
+                        <li><a href="">Offer Terms</a></li>
+                        <li><a href="">Phishing & Fraud</a></li>
+                        <li><a href="">Corporate – Swiggy Money Codes Terms and Conditions</a></li>
+                        <li><a href="">Corporate - Swiggy Discount Voucher Terms and Conditions</a></li>
+
+                    </ul>
+                </div>
+
+
+                <div>
+
+                    <div class="anim">
+
+
+                        <div class=" white-border">
+                            <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_108/iOS_ajgrty"
+                                alt="icon" width="190.4px" height="58.9px">
+                        </div>
+
+                        <div class=" white-border">
+                            <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_108/play_ip0jfp"
+                                alt="icon" width="190.4px" height="58.9px">
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="line"></div>
+
+            <div class="links">
+
+                <div class="margin-right">
+                    <h5>WE DELIVER TO</h5>
+                    <ul class="capitilize">
+                        <li><a href="/city/abohar">abohar</a></li>
+                        <li><a href="/city/adilabad">adilabad</a></li>
+                        <li><a href="/city/adoni">adoni</a></li>
+                        <li><a href="/city/agra">agra</a></li>
+                        <li><a href="/city/ahmedabad">ahmedabad</a></li>
+                        <li><a href="/city/ahmednagar">ahmednagar</a></li>
+                        <li><a href="/city/aizawl">aizawl</a></li>
+                        <li><a href="/city/ajmer">ajmer</a></li>
+                        <li><a href="/city/akola">akola</a></li>
+                        <li><a href="/city/alappuzha">alappuzha</a></li>
+                        <li><a href="/city/aligarh">aligarh</a></li>
+                        <li><a href="/city/alipurduar">alipurduar</a></li>
+                        <li><a href="/city/allahabad">allahabad</a></li>
+                        <li><a href="/city/almora">almora</a></li>
+                        <li><a href="/city/alwar">alwar</a></li>
+                        <li><a href="/city/ambajogai">ambajogai</a></li>
+                        <li><a href="/city/ambala">ambala</a></li>
+                        <li><a href="/city/ambikapur">ambikapur</a></li>
+                        <li><a href="/city/ambur">ambur</a></li>
+                        <li><a href="/city/amravati">amravati</a></li>
+                        <li><a href="/city/amreli">amreli</a></li>
+                        <li><a href="/city/amritsar">amritsar</a></li>
+                        <li><a href="/city/anand">anand</a></li>
+                        <li><a href="/city/anantapur">anantapur</a></li>
+                        <li><a href="/city/ankleshwar">ankleshwar</a></li>
+                        <li><a href="/city/arakkonam">arakkonam</a></li>
+                        <li><a href="/city/arambagh">arambagh</a></li>
+                        <li><a href="/city/araria">araria</a></li>
+                        <li><a href="/city/arrah">arrah</a></li>
+                        <li><a href="/city/asansol">asansol</a></li>
+                        <li><a href="/city/aurangabad">aurangabad</a></li>
+                        <li><a href="/city/aurangabadbihar">aurangabadbihar</a></li>
+                        <li><a href="/city/azamgarh">azamgarh</a></li>
+                        <li><a href="/city/baddi">baddi</a></li>
+                        <li><a href="/city/bagalkot">bagalkot</a></li>
+                        <li><a href="/city/bagdogra">bagdogra</a></li>
+                        <li><a href="/city/bahadurgarh">bahadurgarh</a></li>
+                        <li><a href="/city/bahraich">bahraich</a></li>
+                        <li><a href="/city/balaghat">balaghat</a></li>
+                        <li><a href="/city/balangir">balangir</a></li>
+                        <li><a href="/city/balasore">balasore</a></li>
+                        <li><a href="/city/ballari">ballari</a></li>
+                        <li><a href="/city/ballia">ballia</a></li>
+                        <li><a href="/city/balrampur">balrampur</a></li>
+                        <li><a href="/city/balurghat">balurghat</a></li>
+                        <li><a href="/city/banda">banda</a></li>
+                        <li><a href="/city/bangalore">bangalore</a></li>
+                        <li><a href="/city/bantwal">bantwal</a></li>
+                        <li><a href="/city/baramati">baramati</a></li>
+                        <li><a href="/city/baran">baran</a></li>
+                        <li><a href="/city/bardhaman">bardhaman</a></li>
+                        <li><a href="/city/bardoli">bardoli</a></li>
+                        <li><a href="/city/bareilly">bareilly</a></li>
+                        <li><a href="/city/barh">barh</a></li>
+                        <li><a href="/city/baripada">baripada</a></li>
+                        <li><a href="/city/barmer">barmer</a></li>
+                        <li><a href="/city/barnala">barnala</a></li>
+                        <li><a href="/city/barshi">barshi</a></li>
+                        <li><a href="/city/basirhat">basirhat</a></li>
+                        <li><a href="/city/basti">basti</a></li>
+                        <li><a href="/city/batala">batala</a></li>
+                        <li><a href="/city/bathinda">bathinda</a></li>
+                        <li><a href="/city/beawar">beawar</a></li>
+                        <li><a href="/city/beed">beed</a></li>
+                        <li><a href="/city/begusarai">begusarai</a></li>
+                        <li><a href="/city/bela-pratapgarh">bela-pratapgarh</a></li>
+                        <li><a href="/city/belgaum">belgaum</a></li>
+                        <li><a href="/city/berhampore">berhampore</a></li>
+                        <li><a href="/city/berhampur">berhampur</a></li>
+                        <li><a href="/city/bettiah">bettiah</a></li>
+                        <li><a href="/city/betul">betul</a></li>
+                        <li><a href="/city/bhadohi">bhadohi</a></li>
+                        <li><a href="/city/bhadrachalam">bhadrachalam</a></li>
+                        <li><a href="/city/bhadrak">bhadrak</a></li>
+                        <li><a href="/city/bhadravati">bhadravati</a></li>
+                        <li><a href="/city/bhagalpur">bhagalpur</a></li>
+                        <li><a href="/city/bhandara">bhandara</a></li>
+                        <li><a href="/city/bharabanki">bharabanki</a></li>
+                        <li><a href="/city/bharatpur">bharatpur</a></li>
+                        <li><a href="/city/bharuch">bharuch</a></li>
+                        <li><a href="/city/bhatkal">bhatkal</a></li>
+                        <li><a href="/city/bhavnagar">bhavnagar</a></li>
+                        <li><a href="/city/bhawanipatna">bhawanipatna</a></li>
+                        <li><a href="/city/bhilai">bhilai</a></li>
+                        <li><a href="/city/bhilwara">bhilwara</a></li>
+                        <li><a href="/city/bhimavaram">bhimavaram</a></li>
+                        <li><a href="/city/bhind">bhind</a></li>
+                        <li><a href="/city/bhiwadi">bhiwadi</a></li>
+                        <li><a href="/city/bhiwani">bhiwani</a></li>
+                        <li><a href="/city/bhopal">bhopal</a></li>
+                        <li><a href="/city/bhubaneswar">bhubaneswar</a></li>
+                        <li><a href="/city/bhuj">bhuj</a></li>
+                        <li><a href="/city/bhusawal">bhusawal</a></li>
+                        <li><a href="/city/bidar">bidar</a></li>
+                        <li><a href="/city/biharsharif">biharsharif</a></li>
+                        <li><a href="/city/bijapur">bijapur</a></li>
+                        <li><a href="/city/bijnor">bijnor</a></li>
+                        <li><a href="/city/bikaner">bikaner</a></li>
+                        <li><a href="/city/bilaspur">bilaspur</a></li>
+                        <li><a href="/city/bilimora">bilimora</a></li>
+                        <li><a href="/city/biswanath-chariali">biswanath-chariali</a>
+                        </li>
+                        <li><a href="/city/bodhan-rural">bodhan-rural</a></li>
+                        <li><a href="/city/bodinayakanur">bodinayakanur</a></li>
+                        <li><a href="/city/boisar">boisar</a></li>
+                        <li><a href="/city/bolpur">bolpur</a></li>
+                        <li><a href="/city/bongaigaon">bongaigaon</a></li>
+                        <li><a href="/city/bongaon">bongaon</a></li>
+                        <li><a href="/city/budaun">budaun</a></li>
+                        <li><a href="/city/bulandshahr">bulandshahr</a></li>
+                        <li><a href="/city/buldana">buldana</a></li>
+                        <li><a href="/city/bundi">bundi</a></li>
+                        <li><a href="/city/burhanpur">burhanpur</a></li>
+                        <li><a href="/city/buxar">buxar</a></li>
+                        <li><a href="/city/central-goa">central-goa</a></li>
+                        <li><a href="/city/chaibasa">chaibasa</a></li>
+                        <li><a href="/city/chakdaha">chakdaha</a></li>
+                        <li><a href="/city/chalisgaon">chalisgaon</a></li>
+                        <li><a href="/city/chandausi">chandausi</a></li>
+                        <li><a href="/city/chandigarh">chandigarh</a></li>
+                        <li><a href="/city/chandrapur">chandrapur</a></li>
+                        <li><a href="/city/chennai">chennai</a></li>
+                        <li><a href="/city/chhapra">chhapra</a></li>
+                        <li><a href="/city/chhatarpur">chhatarpur</a></li>
+                        <li><a href="/city/chhindwara">chhindwara</a></li>
+                        <li><a href="/city/chidambaram">chidambaram</a></li>
+                        <li><a href="/city/chikhli">chikhli</a></li>
+                        <li><a href="/city/chikkaballapur">chikkaballapur</a></li>
+                        <li><a href="/city/chikmagalur">chikmagalur</a></li>
+                        <li><a href="/city/chiplun">chiplun</a></li>
+                        <li><a href="/city/chitradurga">chitradurga</a></li>
+                        <li><a href="/city/chittoor">chittoor</a></li>
+                        <li><a href="/city/chittorgarh">chittorgarh</a></li>
+                        <li><a href="/city/churu">churu</a></li>
+                        <li><a href="/city/coimbatore">coimbatore</a></li>
+                        <li><a href="/city/cooch-behar">cooch-behar</a></li>
+                        <li><a href="/city/cuddalore">cuddalore</a></li>
+                        <li><a href="/city/cuttack">cuttack</a></li>
+                        <li><a href="/city/dahanu">dahanu</a></li>
+                        <li><a href="/city/dahod">dahod</a></li>
+                        <li><a href="/city/daltonganj">daltonganj</a></li>
+                        <li><a href="/city/daman">daman</a></li>
+                        <li><a href="/city/darbhanga">darbhanga</a></li>
+                        <li><a href="/city/darjeeling">darjeeling</a></li>
+                        <li><a href="/city/dasuya">dasuya</a></li>
+                        <li><a href="/city/dausa">dausa</a></li>
+                        <li><a href="/city/davanagere">davanagere</a></li>
+                        <li><a href="/city/dehradun">dehradun</a></li>
+                        <li><a href="/city/dehri">dehri</a></li>
+                        <li><a href="/city/delhi">delhi</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="margin-right">
+
+                    <ul class="capitilize">
+                        <br><br>
+                        <li><a href="/city/deoghar">deoghar</a></li>
+                        <li><a href="/city/deoria-city">deoria-city</a></li>
+                        <li><a href="/city/dewas">dewas</a></li>
+                        <li><a href="/city/dhanbad">dhanbad</a></li>
+                        <li><a href="/city/dhar">dhar</a></li>
+                        <li><a href="/city/dharamshala">dharamshala</a></li>
+                        <li><a href="/city/dharapuram">dharapuram</a></li>
+                        <li><a href="/city/dharmapuri">dharmapuri</a></li>
+                        <li><a href="/city/dharwad">dharwad</a></li>
+                        <li><a href="/city/dholpur">dholpur</a></li>
+                        <li><a href="/city/dhule">dhule</a></li>
+                        <li><a href="/city/dibrugarh">dibrugarh</a></li>
+                        <li><a href="/city/digboi">digboi</a></li>
+                        <li><a href="/city/dimapur">dimapur</a></li>
+                        <li><a href="/city/dindigul">dindigul</a></li>
+                        <li><a href="/city/diu">diu</a></li>
+                        <li><a href="/city/doddaballapura">doddaballapura</a></li>
+                        <li><a href="/city/duliajan">duliajan</a></li>
+                        <li><a href="/city/dumka">dumka</a></li>
+                        <li><a href="/city/dungarpur">dungarpur</a></li>
+                        <li><a href="/city/durgapur">durgapur</a></li>
+                        <li><a href="/city/eluru">eluru</a></li>
+                        <li><a href="/city/erode">erode</a></li>
+                        <li><a href="/city/etah">etah</a></li>
+                        <li><a href="/city/etawah">etawah</a></li>
+                        <li><a href="/city/faizabad">faizabad</a></li>
+                        <li><a href="/city/faridabad">faridabad</a></li>
+                        <li><a href="/city/faridkot">faridkot</a></li>
+                        <li><a href="/city/farrukhabad">farrukhabad</a></li>
+                        <li><a href="/city/fatehabad">fatehabad</a></li>
+                        <li><a href="/city/fatehgarh-sahib">fatehgarh-sahib</a></li>
+                        <li><a href="/city/fatehpur">fatehpur</a></li>
+                        <li><a href="/city/fazilka">fazilka</a></li>
+                        <li><a href="/city/firozabad">firozabad</a></li>
+                        <li><a href="/city/firozpur">firozpur</a></li>
+                        <li><a href="/city/gadag-betigeri">gadag-betigeri</a></li>
+                        <li><a href="/city/gadwal">gadwal</a></li>
+                        <li><a href="/city/gandhidham">gandhidham</a></li>
+                        <li><a href="/city/gangapur-city">gangapur-city</a></li>
+                        <li><a href="/city/gangarampur">gangarampur</a></li>
+                        <li><a href="/city/gangtok">gangtok</a></li>
+                        <li><a href="/city/gauriganj">gauriganj</a></li>
+                        <li><a href="/city/gaya">gaya</a></li>
+                        <li><a href="/city/ghazipur">ghazipur</a></li>
+                        <li><a href="/city/giridih">giridih</a></li>
+                        <li><a href="/city/godhra">godhra</a></li>
+                        <li><a href="/city/gokak">gokak</a></li>
+                        <li><a href="/city/golaghat">golaghat</a></li>
+                        <li><a href="/city/gonda">gonda</a></li>
+                        <li><a href="/city/gondia">gondia</a></li>
+                        <li><a href="/city/gopalganj">gopalganj</a></li>
+                        <li><a href="/city/gorakhpur">gorakhpur</a></li>
+                        <li><a href="/city/gudivada">gudivada</a></li>
+                        <li><a href="/city/gudur">gudur</a></li>
+                        <li><a href="/city/guna">guna</a></li>
+                        <li><a href="/city/guntakal">guntakal</a></li>
+                        <li><a href="/city/guntur">guntur</a></li>
+                        <li><a href="/city/gurdaspur">gurdaspur</a></li>
+                        <li><a href="/city/gurgaon">gurgaon</a></li>
+                        <li><a href="/city/guwahati">guwahati</a></li>
+                        <li><a href="/city/gwalior">gwalior</a></li>
+                        <li><a href="/city/habra">habra</a></li>
+                        <li><a href="/city/hajipur">hajipur</a></li>
+                        <li><a href="/city/haldia">haldia</a></li>
+                        <li><a href="/city/haldwani">haldwani</a></li>
+                        <li><a href="/city/halol">halol</a></li>
+                        <li><a href="/city/hamirpur">hamirpur</a></li>
+                        <li><a href="/city/hampi">hampi</a></li>
+                        <li><a href="/city/hansi">hansi</a></li>
+                        <li><a href="/city/hanumangarh">hanumangarh</a></li>
+                        <li><a href="/city/hapur">hapur</a></li>
+                        <li><a href="/city/hardoi">hardoi</a></li>
+                        <li><a href="/city/haridwar">haridwar</a></li>
+                        <li><a href="/city/hassan">hassan</a></li>
+                        <li><a href="/city/hathras">hathras</a></li>
+                        <li><a href="/city/haveri">haveri</a></li>
+                        <li><a href="/city/himmatnagar">himmatnagar</a></li>
+                        <li><a href="/city/hisar">hisar</a></li>
+                        <li><a href="/city/hojai">hojai</a></li>
+                        <li><a href="/city/hoshangabad">hoshangabad</a></li>
+                        <li><a href="/city/hoshiarpur">hoshiarpur</a></li>
+                        <li><a href="/city/hospet">hospet</a></li>
+                        <li><a href="/city/hosur">hosur</a></li>
+                        <li><a href="/city/hubli">hubli</a></li>
+                        <li><a href="/city/hyderabad">hyderabad</a></li>
+                        <li><a href="/city/ichalkaranji">ichalkaranji</a></li>
+                        <li><a href="/city/imphal">imphal</a></li>
+                        <li><a href="/city/indore">indore</a></li>
+                        <li><a href="/city/itanagar">itanagar</a></li>
+                        <li><a href="/city/itarsi">itarsi</a></li>
+                        <li><a href="/city/jabalpur">jabalpur</a></li>
+                        <li><a href="/city/jagdalpur">jagdalpur</a></li>
+                        <li><a href="/city/jagraon">jagraon</a></li>
+                        <li><a href="/city/jagtial">jagtial</a></li>
+                        <li><a href="/city/jahanabad">jahanabad</a></li>
+                        <li><a href="/city/jaipur">jaipur</a></li>
+                        <li><a href="/city/jalandhar">jalandhar</a></li>
+                        <li><a href="/city/jalgaon">jalgaon</a></li>
+                        <li><a href="/city/jalna">jalna</a></li>
+                        <li><a href="/city/jalpaiguri">jalpaiguri</a></li>
+                        <li><a href="/city/jammu">jammu</a></li>
+                        <li><a href="/city/jamnagar">jamnagar</a></li>
+                        <li><a href="/city/jamui">jamui</a></li>
+                        <li><a href="/city/jangipur">jangipur</a></li>
+                        <li><a href="/city/jaunpur">jaunpur</a></li>
+                        <li><a href="/city/jhalawar">jhalawar</a></li>
+                        <li><a href="/city/jhansi">jhansi</a></li>
+                        <li><a href="/city/jhargram">jhargram</a></li>
+                        <li><a href="/city/jharsuguda">jharsuguda</a></li>
+                        <li><a href="/city/jhunjhunu">jhunjhunu</a></li>
+                        <li><a href="/city/jind">jind</a></li>
+                        <li><a href="/city/jjajjar">jjajjar</a></li>
+                        <li><a href="/city/jodhpur">jodhpur</a></li>
+                        <li><a href="/city/jorhat">jorhat</a></li>
+                        <li><a href="/city/junagadh">junagadh</a></li>
+                        <li><a href="/city/kadapa">kadapa</a></li>
+                        <li><a href="/city/kadayanallur">kadayanallur</a></li>
+                        <li><a href="/city/kadiri">kadiri</a></li>
+                        <li><a href="/city/kaithal">kaithal</a></li>
+                        <li><a href="/city/kakinada">kakinada</a></li>
+                        <li><a href="/city/kalaburagi">kalaburagi</a></li>
+                        <li><a href="/city/kamareddy">kamareddy</a></li>
+                        <li><a href="/city/kanchrapara">kanchrapara</a></li>
+                        <li><a href="/city/kannauj">kannauj</a></li>
+                        <li><a href="/city/kannur">kannur</a></li>
+                        <li><a href="/city/kanpur">kanpur</a></li>
+                        <li><a href="/city/kanyakumari">kanyakumari</a></li>
+                        <li><a href="/city/kapurthala">kapurthala</a></li>
+                        <li><a href="/city/karad">karad</a></li>
+                        <li><a href="/city/karaikal">karaikal</a></li>
+                        <li><a href="/city/karaikkudi">karaikkudi</a></li>
+                        <li><a href="/city/karimnagar">karimnagar</a></li>
+                        <li><a href="/city/karnal">karnal</a></li>
+                        <li><a href="/city/karur">karur</a></li>
+                        <li><a href="/city/karwar">karwar</a></li>
+                        <li><a href="/city/kashipur">kashipur</a></li>
+                        <li><a href="/city/katihar">katihar</a></li>
+                        <li><a href="/city/katni">katni</a></li>
+                        <li><a href="/city/kavali">kavali</a></li>
+                        <li><a href="/city/kayamkulam">kayamkulam</a></li>
+                        <li><a href="/city/kendrapada">kendrapada</a></li>
+                        <li><a href="/city/kendujhar">kendujhar</a></li>
+                        <li><a href="/city/khagaria">khagaria</a></li>
+                        <li><a href="/city/khalilabad">khalilabad</a></li>
+                        <li><a href="/city/khamgaon">khamgaon</a></li>
+                        <li><a href="/city/khammam">khammam</a></li>
+                        <li><a href="/city/khandwa">khandwa</a></li>
+                        <li><a href="/city/khanna">khanna</a></li>
+                        <li><a href="/city/kharagpur">kharagpur</a></li>
+                    </ul>
+                </div>
+
+                <div class="margin-right">
+
+                    <ul class="capitilize">
+                        <br><br>
+                        <li><a href="/city/kishanganj">kishanganj</a></li>
+                        <li><a href="/city/kishangarh">kishangarh</a></li>
+                        <li><a href="/city/kochi">kochi</a></li>
+                        <li><a href="/city/kohima">kohima</a></li>
+                        <li><a href="/city/kokrajhar">kokrajhar</a></li>
+                        <li><a href="/city/kolar">kolar</a></li>
+                        <li><a href="/city/kolhapur">kolhapur</a></li>
+                        <li><a href="/city/kolkata">kolkata</a></li>
+                        <li><a href="/city/kollam">kollam</a></li>
+                        <li><a href="/city/koppal">koppal</a></li>
+                        <li><a href="/city/korba">korba</a></li>
+                        <li><a href="/city/kota">kota</a></li>
+                        <li><a href="/city/kotdwar">kotdwar</a></li>
+                        <li><a href="/city/kothagudem">kothagudem</a></li>
+                        <li><a href="/city/kottarakkara">kottarakkara</a></li>
+                        <li><a href="/city/kottayam">kottayam</a></li>
+                        <li><a href="/city/kovilpatti">kovilpatti</a></li>
+                        <li><a href="/city/kozhikode">kozhikode</a></li>
+                        <li><a href="/city/krishnagiri">krishnagiri</a></li>
+                        <li><a href="/city/krishnanagar">krishnanagar</a></li>
+                        <li><a href="/city/kullu">kullu</a></li>
+                        <li><a href="/city/kumbakonam">kumbakonam</a></li>
+                        <li><a href="/city/kurnool">kurnool</a></li>
+                        <li><a href="/city/kurukshetra">kurukshetra</a></li>
+                        <li><a href="/city/kushalnagar">kushalnagar</a></li>
+                        <li><a href="/city/lakhimpur">lakhimpur</a></li>
+                        <li><a href="/city/lalitpur">lalitpur</a></li>
+                        <li><a href="/city/latur">latur</a></li>
+                        <li><a href="/city/lonavla">lonavla</a></li>
+                        <li><a href="/city/lpu-phagwara">lpu-phagwara</a></li>
+                        <li><a href="/city/lucknow">lucknow</a></li>
+                        <li><a href="/city/ludhiana">ludhiana</a></li>
+                        <li><a href="/city/machilipatnam">machilipatnam</a></li>
+                        <li><a href="/city/madanapalle">madanapalle</a></li>
+                        <li><a href="/city/madhubani">madhubani</a></li>
+                        <li><a href="/city/madikeri">madikeri</a></li>
+                        <li><a href="/city/madurai">madurai</a></li>
+                        <li><a href="/city/mahbubnagar">mahbubnagar</a></li>
+                        <li><a href="/city/mahoba">mahoba</a></li>
+                        <li><a href="/city/mainpuri">mainpuri</a></li>
+                        <li><a href="/city/malappuram">malappuram</a></li>
+                        <li><a href="/city/malda">malda</a></li>
+                        <li><a href="/city/malegaon">malegaon</a></li>
+                        <li><a href="/city/malout">malout</a></li>
+                        <li><a href="/city/manali">manali</a></li>
+                        <li><a href="/city/mancherial">mancherial</a></li>
+                        <li><a href="/city/mandapeta">mandapeta</a></li>
+                        <li><a href="/city/mandi-dabwali">mandi-dabwali</a></li>
+                        <li><a href="/city/mandi-gobindgarh">mandi-gobindgarh</a>
+                        </li>
+                        <li><a href="/city/mandsaur">mandsaur</a></li>
+                        <li><a href="/city/mandya">mandya</a></li>
+                        <li><a href="/city/mangaluru">mangaluru</a></li>
+                        <li><a href="/city/manipal">manipal</a></li>
+                        <li><a href="/city/mansa">mansa</a></li>
+                        <li><a href="/city/markapur">markapur</a></li>
+                        <li><a href="/city/mathura">mathura</a></li>
+                        <li><a href="/city/maunath-bhanjan">maunath-bhanjan</a></li>
+                        <li><a href="/city/mayiladuthurai">mayiladuthurai</a></li>
+                        <li><a href="/city/medinipur">medinipur</a></li>
+                        <li><a href="/city/meerut">meerut</a></li>
+                        <li><a href="/city/mehsana">mehsana</a></li>
+                        <li><a href="/city/mettupalayam">mettupalayam</a></li>
+                        <li><a href="/city/miryalaguda">miryalaguda</a></li>
+                        <li><a href="/city/mirzapur">mirzapur</a></li>
+                        <li><a href="/city/modinagar">modinagar</a></li>
+                        <li><a href="/city/moga">moga</a></li>
+                        <li><a href="/city/moradabad">moradabad</a></li>
+                        <li><a href="/city/morbi">morbi</a></li>
+                        <li><a href="/city/morena">morena</a></li>
+                        <li><a href="/city/motihari">motihari</a></li>
+                        <li><a href="/city/mount-abu">mount-abu</a></li>
+                        <li><a href="/city/mughalsarai">mughalsarai</a></li>
+                        <li><a href="/city/mukerian">mukerian</a></li>
+                        <li><a href="/city/muktsar">muktsar</a></li>
+                        <li><a href="/city/mumbai">mumbai</a></li>
+                        <li><a href="/city/munger">munger</a></li>
+                        <li><a href="/city/mussoorie">mussoorie</a></li>
+                        <li><a href="/city/muzaffarnagar">muzaffarnagar</a></li>
+                        <li><a href="/city/muzaffarpur">muzaffarpur</a></li>
+                        <li><a href="/city/mysore">mysore</a></li>
+                        <li><a href="/city/nabadwip">nabadwip</a></li>
+                        <li><a href="/city/nabha">nabha</a></li>
+                        <li><a href="/city/nadiad">nadiad</a></li>
+                        <li><a href="/city/nagaon">nagaon</a></li>
+                        <li><a href="/city/nagapattinam">nagapattinam</a></li>
+                        <li><a href="/city/nagda">nagda</a></li>
+                        <li><a href="/city/nagercoil">nagercoil</a></li>
+                        <li><a href="/city/nagpur">nagpur</a></li>
+                        <li><a href="/city/naharlagun">naharlagun</a></li>
+                        <li><a href="/city/nainital">nainital</a></li>
+                        <li><a href="/city/nakodar">nakodar</a></li>
+                        <li><a href="/city/nalbari">nalbari</a></li>
+                        <li><a href="/city/nalgonda">nalgonda</a></li>
+                        <li><a href="/city/namakkal">namakkal</a></li>
+                        <li><a href="/city/nanded">nanded</a></li>
+                        <li><a href="/city/nandurbar">nandurbar</a></li>
+                        <li><a href="/city/nandyal">nandyal</a></li>
+                        <li><a href="/city/nangal">nangal</a></li>
+                        <li><a href="/city/naraingarh">naraingarh</a></li>
+                        <li><a href="/city/narasaraopet">narasaraopet</a></li>
+                        <li><a href="/city/narnaul">narnaul</a></li>
+                        <li><a href="/city/narsinghpur">narsinghpur</a></li>
+                        <li><a href="/city/nashik">nashik</a></li>
+                        <li><a href="/city/navsari">navsari</a></li>
+                        <li><a href="/city/neemuch">neemuch</a></li>
+                        <li><a href="/city/nellore">nellore</a></li>
+                        <li><a href="/city/neyveli">neyveli</a></li>
+                        <li><a href="/city/nirmal">nirmal</a></li>
+                        <li><a href="/city/nizamabad">nizamabad</a></li>
+                        <li><a href="/city/noida">noida</a></li>
+                        <li><a href="/city/noida-1">noida-1</a></li>
+                        <li><a href="/city/north-lakhimpur">north-lakhimpur</a></li>
+                        <li><a href="/city/ongole">ongole</a></li>
+                        <li><a href="/city/ooty">ooty</a></li>
+                        <li><a href="/city/orai">orai</a></li>
+                        <li><a href="/city/osmanabad">osmanabad</a></li>
+                        <li><a href="/city/palakkad">palakkad</a></li>
+                        <li><a href="/city/palakollu">palakollu</a></li>
+                        <li><a href="/city/palampur">palampur</a></li>
+                        <li><a href="/city/palani">palani</a></li>
+                        <li><a href="/city/palanpur">palanpur</a></li>
+                        <li><a href="/city/palghar">palghar</a></li>
+                        <li><a href="/city/pali">pali</a></li>
+                        <li><a href="/city/palwal">palwal</a></li>
+                        <li><a href="/city/panipat">panipat</a></li>
+                        <li><a href="/city/paradeep">paradeep</a></li>
+                        <li><a href="/city/paramakudi">paramakudi</a></li>
+                        <li><a href="/city/parbhani">parbhani</a></li>
+                        <li><a href="/city/parvathipuram">parvathipuram</a></li>
+                        <li><a href="/city/pathankot">pathankot</a></li>
+                        <li><a href="/city/patiala">patiala</a></li>
+                        <li><a href="/city/patna">patna</a></li>
+                        <li><a href="/city/pattukkottai">pattukkottai</a></li>
+                        <li><a href="/city/perambalur">perambalur</a></li>
+                        <li><a href="/city/phagwara">phagwara</a></li>
+                        <li><a href="/city/piler">piler</a></li>
+                        <li><a href="/city/pilibhit">pilibhit</a></li>
+                        <li><a href="/city/pilkhuwa">pilkhuwa</a></li>
+                        <li><a href="/city/pinjore-city">pinjore-city</a></li>
+                        <li><a href="/city/pondicherry">pondicherry</a></li>
+                        <li><a href="/city/porbandar">porbandar</a></li>
+                        <li><a href="/city/port-blair">port-blair</a></li>
+                        <li><a href="/city/pratapgarh">pratapgarh</a></li>
+                        <li><a href="/city/proddatur">proddatur</a></li>
+                        <li><a href="/city/pudukkottai">pudukkottai</a></li>
+                        <li><a href="/city/pune">pune</a></li>
+                        <li><a href="/city/puri">puri</a></li>
+                        <li><a href="/city/purnea">purnea</a></li>
+                        <li><a href="/city/purulia">purulia</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="margin-right">
+                    <ul class="capitilize">
+                        <br><br>
+                        <li><a href="/city/pusad">pusad</a></li>
+                        <li><a href="/city/puttur">puttur</a></li>
+                        <li><a href="/city/rae-bareli">rae-bareli</a></li>
+                        <li><a href="/city/raghunathpur">raghunathpur</a></li>
+                        <li><a href="/city/raichur">raichur</a></li>
+                        <li><a href="/city/raiganj">raiganj</a></li>
+                        <li><a href="/city/raigarh">raigarh</a></li>
+                        <li><a href="/city/raipur">raipur</a></li>
+                        <li><a href="/city/rajahmundry">rajahmundry</a></li>
+                        <li><a href="/city/rajampet">rajampet</a></li>
+                        <li><a href="/city/rajapalayam">rajapalayam</a></li>
+                        <li><a href="/city/rajgarh">rajgarh</a></li>
+                        <li><a href="/city/rajkot">rajkot</a></li>
+                        <li><a href="/city/rajnandgaon">rajnandgaon</a></li>
+                        <li><a href="/city/rajsamand">rajsamand</a></li>
+                        <li><a href="/city/ramagundam">ramagundam</a></li>
+                        <li><a href="/city/ramanagara">ramanagara</a></li>
+                        <li><a href="/city/ramanathapuram">ramanathapuram</a></li>
+                        <li><a href="/city/ramgarh">ramgarh</a></li>
+                        <li><a href="/city/rampur">rampur</a></li>
+                        <li><a href="/city/ranaghat-wb">ranaghat-wb</a></li>
+                        <li><a href="/city/ranchi">ranchi</a></li>
+                        <li><a href="/city/rangia">rangia</a></li>
+                        <li><a href="/city/rangpo">rangpo</a></li>
+                        <li><a href="/city/ranibennur">ranibennur</a></li>
+                        <li><a href="/city/raniganj">raniganj</a></li>
+                        <li><a href="/city/ratlam">ratlam</a></li>
+                        <li><a href="/city/ratnagiri">ratnagiri</a></li>
+                        <li><a href="/city/ravulapalem">ravulapalem</a></li>
+                        <li><a href="/city/rayachoty">rayachoty</a></li>
+                        <li><a href="/city/rayagada">rayagada</a></li>
+                        <li><a href="/city/rewa">rewa</a></li>
+                        <li><a href="/city/rewari">rewari</a></li>
+                        <li><a href="/city/rishikesh">rishikesh</a></li>
+                        <li><a href="/city/roha">roha</a></li>
+                        <li><a href="/city/rohtak">rohtak</a></li>
+                        <li><a href="/city/roorkee">roorkee</a></li>
+                        <li><a href="/city/ropar">ropar</a></li>
+                        <li><a href="/city/rourkela">rourkela</a></li>
+                        <li><a href="/city/rudrapur">rudrapur</a></li>
+                        <li><a href="/city/sagar">sagar</a></li>
+                        <li><a href="/city/saharanpur">saharanpur</a></li>
+                        <li><a href="/city/saharsa">saharsa</a></li>
+                        <li><a href="/city/salem">salem</a></li>
+                        <li><a href="/city/samastipur">samastipur</a></li>
+                        <li><a href="/city/sambalpur">sambalpur</a></li>
+                        <li><a href="/city/sangamner">sangamner</a></li>
+                        <li><a href="/city/sangli">sangli</a></li>
+                        <li><a href="/city/sangrur">sangrur</a></li>
+                        <li><a href="/city/sankarankoil">sankarankoil</a></li>
+                        <li><a href="/city/santipur">santipur</a></li>
+                        <li><a href="/city/sasaram">sasaram</a></li>
+                        <li><a href="/city/satara">satara</a></li>
+                        <li><a href="/city/satna">satna</a></li>
+                        <li><a href="/city/sawai-madhopur">sawai-madhopur</a></li>
+                        <li><a href="/city/sehore">sehore</a></li>
+                        <li><a href="/city/shahjahanpur">shahjahanpur</a></li>
+                        <li><a href="/city/shamli">shamli</a></li>
+                        <li><a href="/city/shikohabad">shikohabad</a></li>
+                        <li><a href="/city/shillong">shillong</a></li>
+                        <li><a href="/city/shirdi-city">shirdi-city</a></li>
+                        <li><a href="/city/shivamogga">shivamogga</a></li>
+                        <li><a href="/city/shivpuri">shivpuri</a></li>
+                        <li><a href="/city/siddipet">siddipet</a></li>
+                        <li><a href="/city/sikar">sikar</a></li>
+                        <li><a href="/city/silchar">silchar</a></li>
+                        <li><a href="/city/siliguri">siliguri</a></li>
+                        <li><a href="/city/silvassa">silvassa</a></li>
+                        <li><a href="/city/sindhanur">sindhanur</a></li>
+                        <li><a href="/city/singrauli">singrauli</a></li>
+                        <li><a href="/city/sirkali">sirkali</a></li>
+                        <li><a href="/city/sirsa">sirsa</a></li>
+                        <li><a href="/city/sirsi">sirsi</a></li>
+                        <li><a href="/city/sitamarhi">sitamarhi</a></li>
+                        <li><a href="/city/sitapur">sitapur</a></li>
+                        <li><a href="/city/sivakasi">sivakasi</a></li>
+                        <li><a href="/city/sivasagar">sivasagar</a></li>
+                        <li><a href="/city/siwan">siwan</a></li>
+                        <li><a href="/city/solan">solan</a></li>
+                        <li><a href="/city/solapur">solapur</a></li>
+                        <li><a href="/city/sonipat">sonipat</a></li>
+                        <li><a href="/city/sri-ganganagar">sri-ganganagar</a></li>
+                        <li><a href="/city/srikakulam">srikakulam</a></li>
+                        <li><a href="/city/srivilliputhur">srivilliputhur</a></li>
+                        <li><a href="/city/sullurpeta">sullurpeta</a></li>
+                        <li><a href="/city/sultanpur">sultanpur</a></li>
+                        <li><a href="/city/sulthan-bathery">sulthan-bathery</a></li>
+                        <li><a href="/city/surat">surat</a></li>
+                        <li><a href="/city/suratgarh">suratgarh</a></li>
+                        <li><a href="/city/surendranagar-dudhrej">surendranagar-dudhrej</a></li>
+                        <li><a href="/city/suri">suri</a></li>
+                        <li><a href="/city/suryapet">suryapet</a></li>
+                        <li><a href="/city/tadepalligudem">tadepalligudem</a></li>
+                        <li><a href="/city/tadpatri">tadpatri</a></li>
+                        <li><a href="/city/tanuku">tanuku</a></li>
+                        <li><a href="/city/tarn-taran-sahib">tarn-taran-sahib</a>
+                        </li>
+                        <li><a href="/city/tenkasi">tenkasi</a></li>
+                        <li><a href="/city/tezpur">tezpur</a></li>
+                        <li><a href="/city/thanjavur">thanjavur</a></li>
+                        <li><a href="/city/theni">theni</a></li>
+                        <li><a href="/city/thiruvalla">thiruvalla</a></li>
+                        <li><a href="/city/thiruvallur">thiruvallur</a></li>
+                        <li><a href="/city/thiruvananthapuram">thiruvananthapuram</a></li>
+                        <li><a href="/city/thiruvarur">thiruvarur</a></li>
+                        <li><a href="/city/thodupuzha">thodupuzha</a></li>
+                        <li><a href="/city/thoothukudi">thoothukudi</a></li>
+                        <li><a href="/city/thrissur">thrissur</a></li>
+                        <li><a href="/city/tindivanam">tindivanam</a></li>
+                        <li><a href="/city/tinsukia">tinsukia</a></li>
+                        <li><a href="/city/tiptur">tiptur</a></li>
+                        <li><a href="/city/tirunelveli">tirunelveli</a></li>
+                        <li><a href="/city/tirupati">tirupati</a></li>
+                        <li><a href="/city/tirupattur">tirupattur</a></li>
+                        <li><a href="/city/tirupur">tirupur</a></li>
+                        <li><a href="/city/tiruttani">tiruttani</a></li>
+                        <li><a href="/city/tiruvannamalai">tiruvannamalai</a></li>
+                        <li><a href="/city/tohana">tohana</a></li>
+                        <li><a href="/city/trichy">trichy</a></li>
+                        <li><a href="/city/tumakuru">tumakuru</a></li>
+                        <li><a href="/city/tuni">tuni</a></li>
+                        <li><a href="/city/udaipur">udaipur</a></li>
+                        <li><a href="/city/udgir">udgir</a></li>
+                        <li><a href="/city/udumalaipettai">udumalaipettai</a></li>
+                        <li><a href="/city/ujjain">ujjain</a></li>
+                        <li><a href="/city/uluberia">uluberia</a></li>
+                        <li><a href="/city/una">una</a></li>
+                        <li><a href="/city/unnao">unnao</a></li>
+                        <li><a href="/city/vadodara">vadodara</a></li>
+                        <li><a href="/city/valsad">valsad</a></li>
+                        <li><a href="/city/vapi">vapi</a></li>
+                        <li><a href="/city/varanasi">varanasi</a></li>
+                        <li><a href="/city/vellore">vellore</a></li>
+                        <li><a href="/city/veraval">veraval</a></li>
+                        <li><a href="/city/vidisha">vidisha</a></li>
+                        <li><a href="/city/vijayawada">vijayawada</a></li>
+                        <li><a href="/city/viluppuram">viluppuram</a></li>
+                        <li><a href="/city/virudhunagar">virudhunagar</a></li>
+                        <li><a href="/city/vizag">vizag</a></li>
+                        <li><a href="/city/vizianagaram">vizianagaram</a></li>
+                        <li><a href="/city/vyara">vyara</a></li>
+                        <li><a href="/city/waidhan">waidhan</a></li>
+                        <li><a href="/city/warangal">warangal</a></li>
+                        <li><a href="/city/wardha">wardha</a></li>
+                        <li><a href="/city/washim">washim</a></li>
+                        <li><a href="/city/wayanad">wayanad</a></li>
+                        <li><a href="/city/yamuna-nagar">yamuna-nagar</a></li>
+                        <li><a href="/city/yavatmal">yavatmal</a></li>
+                    </ul>
+
+                </div>
+
+            </div>
+            <div class="line"></div>
+            <div>
+                <h5 style="color: #686b78;margin-left: 7.5rem;">EXPLORE EVERY RESTAURANTS NEAR ME</h5>
+                <div class="explore">
+
+                    <p>Explore Restaurants Near Me</p>
+                    <p>Explore Top Rated Restaurants Near Me</p>
+                </div>
+            </div>
+            <div class="line"></div>
+
+        </section>
+
+
+        <footer>
+
+            <div>
+                <svg width="120" class="logoimagefooter" viewBox="0 0 200 200">
+                    <path
+                        d="M19.9253444,58.766315 C19.8876048,58.7384908 19.8458927,58.7037105 19.8021942,58.6654521 C19.094081,57.7879944 14.7152991,52.3026415 10.2535896,45.2670801 C8.91532497,43.0252402 8.046322,41.2767839 8.21317057,40.8246398 C8.64965835,39.6490651 16.4279798,39.0056292 18.8234486,40.0713975 C19.5519214,40.3948545 19.5335482,40.8231492 19.5335482,41.0725738 C19.5335482,42.1487762 19.4804148,45.0365363 19.4804148,45.0365363 C19.4809114,45.6332671 19.9660634,46.1172104 20.5634408,46.1162167 C21.1618115,46.1162167 21.6449771,45.630286 21.6429908,45.0320645 L21.6305765,37.8365137 L21.6285902,37.8365137 C21.6285902,37.2119586 20.9467953,37.055944 20.8186794,37.0315978 C19.5683083,37.0256354 17.0293299,37.0171888 14.3031434,37.0171888 C8.28765654,37.0171888 6.94343308,37.264129 5.92148558,36.5958501 C3.707266,35.1479951 0.0867513255,25.3896318 0.0023338937,19.8993102 C-0.117836803,12.1537335 4.47149205,5.44808831 10.9338947,2.12557426 C13.6337628,0.766160708 16.6832184,0 19.9039917,0 C30.132405,0 38.555775,7.72023676 39.6765405,17.6529986 C39.6775337,17.6614452 39.6775337,17.6708856 39.67952,17.6793322 C39.8851013,20.0806647 26.6504342,20.5909417 24.0325007,19.8923542 C23.6312696,19.785032 23.528479,19.3741274 23.528479,19.1972447 C23.5254995,17.371278 23.5130852,12.2327345 23.5130852,12.2327345 C23.5110989,11.6355068 23.025947,11.1510667 22.4285695,11.1525572 L22.4275764,11.1525572 C21.831192,11.153551 21.3470332,11.6389848 21.3470332,12.2372063 L21.3683859,21.7029181 C21.3867591,22.2991521 21.8873048,22.4601353 22.024359,22.4869659 C23.5130852,22.4874627 26.9945594,22.4839847 30.2371819,22.4839847 C34.6199364,22.4839847 36.460733,22.9917773 37.6857789,23.9243867 C38.5001588,24.5454638 38.8154827,25.7344538 38.5398847,27.2796936 C36.0823442,41.0258688 20.5103075,58.0562997 19.9253444,58.766315 Z M62.158293,26.6840558 C66.0871796,28.3679201 68.5213811,30.23612 68.5213811,34.3367194 C68.5213811,38.5257602 65.3482788,41.2316689 60.4386603,41.2316689 C56.4601164,41.2316689 53.2666546,39.4295516 51.6761309,36.2864046 L51.418906,35.7796057 L56.0966249,33.0692253 L56.4030105,33.5700618 C57.4562421,35.2916875 58.633617,36.0255522 60.3418285,36.0255522 C61.8141679,36.0255522 62.8033415,35.3731729 62.8033415,34.4013114 C62.8033415,33.3246122 62.0872831,32.9211605 59.8740566,31.9522802 L58.7493185,31.4698275 C55.7475339,30.1904087 52.9667244,28.4126376 52.9667244,24.1068343 C52.9667244,20.2372755 55.9327557,17.5348449 60.1799457,17.5348449 C63.3977396,17.5348449 65.6030208,18.7804771 67.1210449,21.4535929 L67.4026018,21.9499577 L62.8703789,24.8625609 L62.5580344,24.3035915 C61.8002638,22.9481529 61.0866882,22.6763695 60.1799457,22.6763695 C59.2319876,22.6763695 58.6212026,23.199068 58.6212026,24.0099463 C58.6212026,24.9415619 59.0710979,25.3504791 61.0320652,26.2001125 L62.158293,26.6840558 Z M95.2686968,27.476898 L98.5709081,18.2690574 L104.238794,18.2690574 L95.8387627,41.611619 L94.5799498,41.611619 L89.484613,30.6796684 C89.2477476,30.1788318 89.0034336,29.556761 88.7928866,28.9868606 C88.5773739,29.5577547 88.327101,30.1813161 88.089739,30.6821527 L82.7952763,41.611619 L81.5449052,41.611619 L73.0103029,18.2690574 L79.065019,18.2690574 L82.4034802,27.476898 C82.61651,28.0641885 82.8350022,28.7801662 83.0261829,29.4444702 C83.2531168,28.7588011 83.5257354,28.0184772 83.8107684,27.4217464 L88.1955091,18.0767719 L89.4086373,18.0767719 L93.8614085,27.4227401 C94.1454483,28.0189741 94.4190601,28.7597949 94.6450009,29.445464 C94.8371747,28.7801662 95.0571566,28.0641885 95.2686968,27.476898 Z M110.84853,40.9414023 L110.84853,17.7921198 L116.569052,17.7921198 L116.569052,40.9414023 L110.84853,40.9414023 Z M135.325265,33.163629 L135.325265,27.9903052 L145.94746,27.9903052 L145.94746,38.3652739 L145.727975,38.5461315 C144.512861,39.5438298 141.291094,41.2316689 136.926713,41.2316689 C129.564023,41.2316689 124.423995,36.3529841 124.423995,29.3676057 C124.423995,22.5114114 129.383767,17.5348449 136.217607,17.5348449 C139.975672,17.5348449 142.730163,18.594154 144.637004,20.7738862 L145.009434,21.1996966 L141.110342,25.059815 L140.686765,24.6235704 C139.59778,23.500663 138.469566,22.8050567 136.217607,22.8050567 C132.717263,22.8050567 130.272137,25.5035125 130.272137,29.3676057 C130.272137,33.3926822 132.883118,35.99425 136.926713,35.99425 C138.267957,35.99425 139.664321,35.7632093 140.614762,35.394041 L140.614762,33.163629 L135.325265,33.163629 Z M164.314658,33.163629 L164.314658,27.9903052 L174.936853,27.9903052 L174.936853,38.3652739 L174.717368,38.5461315 C173.501261,39.5438298 170.280487,41.2316689 165.917099,41.2316689 C158.554409,41.2316689 153.413388,36.3529841 153.413388,29.3676057 C153.413388,22.5114114 158.374153,17.5348449 165.206006,17.5348449 C168.966058,17.5348449 171.720549,18.594154 173.626397,20.7738862 L173.99982,21.1996966 L170.101721,25.059815 L169.677151,24.6235704 C168.587669,23.500663 167.458959,22.8050567 165.206006,22.8050567 C161.706656,22.8050567 159.26153,25.5035125 159.26153,29.3676057 C159.26153,33.3926822 161.873504,35.99425 165.917099,35.99425 C167.258343,35.99425 168.653714,35.7632093 169.604155,35.394041 L169.604155,33.163629 L164.314658,33.163629 Z M195.897503,17.7922192 L201.87674,17.7922192 L193.669876,33.1964218 L193.669876,40.9415017 L187.918566,40.9415017 L187.918566,33.5253443 L179.1759,17.7922192 L185.555871,17.7922192 L189.596487,25.1730995 C190.030988,25.9760279 190.484856,27.0373245 190.827988,27.8988826 C191.155726,27.0442805 191.589235,25.9924244 192.020757,25.1800555 L195.897503,17.7922192 Z">
+                    </path>
+                </svg>
+            </div>
+
+            <div>
+
+                © 2023 Swiggy
+            </div>
+
+
+            <div class="icons">
+
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-pinterest"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+
+            </div>
+        </footer>
+    </main>
+
+
+
+
+</body>
+
+</html>

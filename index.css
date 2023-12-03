@@ -1,0 +1,316 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+   
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navbar{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.2rem;
+    margin-left: 9rem;
+  
+}
+.navbar-right a{
+
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.navbar-right a:hover{
+
+    color:orange;
+}
+
+
+.navbar-right button{
+
+    margin-left: 1.5rem;
+    color: white;
+    background-color: black;
+    padding: 0.7rem;
+    width: 120px;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.logo{
+
+    fill: #fc8019;  
+}
+.tagline{
+
+    margin-left: 10rem;
+    margin-top: 0.1rem; 
+    color: #686b78;
+    font-size: 24px;
+    font-weight: 200;
+    letter-spacing: -0.3px;
+    width: 600px;
+
+}
+.heading h1{
+    font-size: 40px;
+    margin-left: 10rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+.searchbox{
+
+    width: 600px;
+    height: 60px;
+    margin-left: 10rem;
+    margin-top: 2rem; 
+    border: 1px solid #686b787b;
+    letter-spacing: 0.53px;
+    cursor: pointer;
+    display: flex;
+}
+.searchbox button{
+
+    display: inline;
+    height: 60px;
+    width: 140px;
+    background-color: #fc8019;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    border: 0px;
+}
+input{
+
+    height: 60px;
+    width: 400px;
+}
+
+
+.searchbox input{
+
+    border: 0px;
+    width: 320px;
+    height: 56px;
+    padding-left: 12px;
+}
+.searchbox input:focus{
+    border: 0px;
+    outline: none;
+}
+.searchbox:focus-within{
+
+    border-color: #fc8019;
+}
+#locate{
+
+    margin-top: 8px;
+    background-color: white;
+    color: #686b78;
+    margin-right: 4px; 
+    height: 40px;
+}
+#locate:hover{
+
+    background-color: #686b7853;
+   
+}
+
+.locations{
+
+    width: 600px;
+    color: #686b78;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 7.4rem;
+    flex-wrap: wrap;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 200;
+
+}
+.locations li{
+ 
+    margin-left: 4px;
+}
+.banner{
+
+    background-repeat: no-repeat;
+    width: 44%;
+    height: 530px;
+    background-size: cover;
+    background-position: 100%;
+    background-image: url("https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_1340/Lunch1_vlksgq");
+
+}
+.features{
+
+    display: flex;
+    justify-content: center;
+    background-color:#261b1b;
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+
+    padding: 1.5rem;
+    margin-left: 5rem;
+    display: flex;
+    flex-direction: column;
+    margin-right: 6rem;
+    align-items: center;
+    
+}
+.box span{
+    color: #e0cbc1;
+    line-height: 1.3;
+    font-size: 15px;
+    font-weight: 300;
+}
+.download{
+    display: flex;
+}
+.download_header{
+
+    margin-left: 100px;
+    margin-top: 150px;
+    width: 450px;
+    color: #282c3f;
+    
+}
+.download_header h4{
+    
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 1.4rem;
+}
+.download_header p{
+    margin-top: 0px;
+    margin-bottom: 3.5rem;
+}
+.mob_image{
+    margin-left: 6rem;
+}
+
+.downloadButton{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 6rem;
+}
+.downloadButton img{
+    cursor: pointer;
+}
+.fa-brands.fa-apple{
+    padding: 4px;
+    display: grid;
+    text-align: center;
+    place-content: center;
+    font-size:xx-large
+}
+.links{
+
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1rem;
+
+}
+.links ul{
+
+    list-style: none;
+}
+.links li{
+    margin-bottom: 1rem;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+}
+.links h5{
+    margin-left: 2.5rem;
+    color: rgb(133, 129, 129);
+}
+.white-border{
+       border: 2px solid rgba(255, 255, 255, 0.71);
+       border-radius: 8px;
+       margin-top: 16px;
+       margin-bottom: 2.5rem;
+       margin-left: 0px;
+}
+.bg-black{
+
+    background-color: black;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+.explore{
+
+    display: flex;
+    color: white;
+    justify-content: flex-start;
+
+}
+.explore p{
+    margin-left: 7.5rem;
+    margin-right: auto;
+}
+.icons{
+
+    display: flex;
+    justify-content: space-evenly;
+    width: 200px;
+}
+.logoimagefooter{
+
+    fill:white;
+    padding-top: 50px;
+}
+::-webkit-input-placeholder {
+   
+    font-weight: 550;
+    letter-spacing: 0.3px;
+    font-size: 16px;
+    color:#686b78c9;
+   
+ }
+ .line{
+    border: 0.5px solid #333;
+    height: 0.1px;
+    margin-left: 120px;
+    margin-right: 100px;
+    margin-bottom: 0px;
+ }
+ .margin-right{
+
+    margin-right: 5.2rem;
+ }
+ .capitilize li::first-letter{
+    text-transform: capitalize;
+ }
+ .anim div:hover{
+
+    transform: scale(1.05);
+    transition: all 2s;
+    cursor: pointer;
+ }
+
+ footer{
+    margin: 0px;
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-evenly;
+    align-items:center;
+    font-size: 1.4rem;
+
+}
