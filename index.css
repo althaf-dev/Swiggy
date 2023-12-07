@@ -275,7 +275,7 @@ input{
     fill:white;
     padding-top: 50px;
 }
-::-webkit-input-placeholder {
+input::placeholder {
    
     font-weight: 550;
     letter-spacing: 0.3px;
